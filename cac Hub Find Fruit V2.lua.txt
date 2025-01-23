@@ -1,7 +1,7 @@
----deobf By Adz
----deobf By Adz
----deobf By Adz
----deobf By Adz
+---deobf By dungx
+---deobf By dungx
+---deobf By dungx
+---deobf By dungx
 function setTeam(teamName)
     local args = {
         [1] = "SetTeam",
@@ -113,7 +113,7 @@ UIGradient.Color = ColorSequence.new{
 UIGradient.Parent = UIStroke
 
 T.Font = Enum.Font.GothamBold
-T.Text = "Taidepzai Hub Find Fruit"
+T.Text = "j97 Hub ver Find Fruit"
 T.TextColor3 = Color3.fromRGB(255, 255, 255)
 T.TextSize = 16.5
 T.TextYAlignment = Enum.TextYAlignment.Bottom
@@ -151,7 +151,7 @@ end
 local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/lobox920/Notification-Library/Main/Library.lua"))()
 
 NotificationLibrary:SendNotification("Warning", "Chờ xíu...", 10)
-NotificationLibrary:SendNotification("Warning", "thank you use taidepzai Hub", 10)
+NotificationLibrary:SendNotification("Warning", "script had skid by dungx", 10)
 NotificationLibrary:SendNotification("Warning", "https://discord.gg/TFmhmbGjEE", 10)
 
 spawn(function()
@@ -677,7 +677,7 @@ PosY = 45
 AutoHaki()
 
 spawn(function()
-	function MinhDepZai()
+	function dungDepZai()
 		game:GetService("VirtualUser"):CaptureController()
 		game:GetService("VirtualUser"):Button1Down(Vector2.new(1280, 672))
 	end
